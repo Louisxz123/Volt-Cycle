@@ -14,7 +14,7 @@
 }
 .proto-overlay h3 { color: #fff; font-size: 1.75rem; margin-bottom: 16px; }
 .proto-badges { display: flex; flex-wrap: wrap; gap: 12px; }
-.proto-badges .badge { background: rgba(255,255,255,0.92); color: var(--color-text); border: none; }
+.proto-badges .badge { background: rgba(255,255,255,0.92); color: #0A1628; border: none; }
 
 .table-wrap { overflow-x: auto; }
 .price-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
