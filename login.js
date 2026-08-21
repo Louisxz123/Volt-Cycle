@@ -52,6 +52,6 @@
   });
 
   document.getElementById('forgotBtn').addEventListener('click', function () {
-    alert('Fluxo de recuperação de senha ainda não implementado neste protótipo.');
+    alert('Fluxo de recuperação de senha ainda não implementado neste projeto.');
   });
 })();
