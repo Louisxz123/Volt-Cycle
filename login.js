@@ -48,10 +48,13 @@
 
     // Protótipo: não há backend, então simulamos sucesso e navegamos.
     sessionStorage.setItem('voltcycle-user-email', email.value.trim());
+    if (window.VoltCycleAuth) {
+      window.VoltCycleAuth.setAuth({ email: email.value.trim() });
+    }
     window.location.href = 'login-sucesso.html';
   });
 
   document.getElementById('forgotBtn').addEventListener('click', function () {
-    alert('Fluxo de recuperação de senha ainda não implementado neste projeto.');
+    alert('Fluxo de recuperação de senha ainda não implementado neste protótipo.');
   });
 })();

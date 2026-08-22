@@ -56,6 +56,9 @@
 
     sessionStorage.setItem('voltcycle-user-email', email.value.trim());
     sessionStorage.setItem('voltcycle-user-name', name.value.trim());
+    if (window.VoltCycleAuth) {
+      window.VoltCycleAuth.setAuth({ name: name.value.trim(), email: email.value.trim() });
+    }
     window.location.href = 'login-sucesso.html';
   });
 
