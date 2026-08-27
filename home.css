@@ -40,6 +40,7 @@
 .card h3 { font-size: 1.25rem; margin: 4px 0 12px; }
  
 .icon-tile-danger { background: rgba(239,68,68,0.15); color: #ef4444; }
+.icon-tile-danger img {filter: hue-rotate(90deg)}
  
 .saiba-mais { background: linear-gradient(90deg, rgba(239,68,68,0.08), rgba(0,194,255,0.08), rgba(0,255,136,0.08)); }
 .saiba-mais-card {
