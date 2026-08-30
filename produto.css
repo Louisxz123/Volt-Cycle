@@ -1,3 +1,15 @@
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
 .proto-card {
   position: relative;
   border-radius: var(--radius-md);
@@ -13,8 +25,9 @@
   color: #fff;
 }
 .proto-overlay h3 { color: #fff; font-size: 1.75rem; margin-bottom: 16px; }
-.proto-badges { display: flex; flex-wrap: wrap; gap: 12px; }
+.proto-badges { display: flex; flex-wrap: wrap; gap: 12px;}
 .proto-badges .badge { background: rgba(255,255,255,0.92); color: #0A1628; border: none; }
+.proto-badges .badge img { width: 16px; height: 16px; margin-right: 4px; }
 
 .table-wrap { overflow-x: auto; }
 .price-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }

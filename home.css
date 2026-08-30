@@ -68,3 +68,12 @@
   .saiba-mais-card { grid-template-columns: 1fr; text-align: center; }
   .saiba-mais-card .icon-tile { margin: 0 auto; }
 }
+
+/* Diferenciais Tecnológicos — ícone vira uma barra cheia com gradiente */
+.section-alt .grid-3 .icon-tile {
+  width: 100%;
+  height: 64px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  font-size: 1.5rem;
+}
