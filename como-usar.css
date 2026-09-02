@@ -59,6 +59,8 @@
 }
 
 .stat-badges { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.stat-badges .badge img {filter: invert(38%) sepia(92%) saturate(800%) hue-rotate(185deg) brightness(100%) contrast(100%);}
+.stat-badges .badge-green img {filter: invert(38%) sepia(92%) saturate(747%) hue-rotate(160deg) brightness(96%) contrast(95%);}
 
 @media (max-width: 700px) {
   .step { grid-template-columns: 1fr; }

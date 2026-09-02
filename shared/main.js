@@ -154,7 +154,7 @@
     });
 
     dropdown.querySelector('.logout').addEventListener('click', function () {
-      doLogout('home.html');
+      doLogout('index.html');
     });
     dropdown.querySelector('.switch-account').addEventListener('click', function () {
       doLogout('login.html');
@@ -180,7 +180,7 @@
       '</div>';
 
     block.querySelector('.logout-mobile').addEventListener('click', function () {
-      doLogout('home.html');
+      doLogout('index.html');
     });
     block.querySelector('.switch-account-mobile').addEventListener('click', function () {
       doLogout('login.html');

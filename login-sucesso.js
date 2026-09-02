@@ -1,6 +1,6 @@
 /**
  * VoltCycle — login-sucesso.js
- * Anima a barra de progresso até 100% e então redireciona para home.html.
+ * Anima a barra de progresso até 100% e então redireciona para index.html.
  * Se um nome/e-mail foi salvo pelo login/cadastro, personaliza a saudação.
  */
 (function () {
@@ -34,7 +34,7 @@
 
     if (progress >= 100) {
       clearInterval(interval);
-      setTimeout(function () { window.location.href = 'home.html'; }, 500);
+      setTimeout(function () { window.location.href = 'index.html'; }, 500);
     }
   }, 90);
 
