@@ -45,11 +45,22 @@
 .refer {
   display: grid;
   grid-template-columns: 40px 1fr;
-  gap:16px;
+  gap: 5px;
   align-items: center;
   margin-bottom: 20px;
 }
 .refer img {
+  filter : invert(0.5) sepia(1) saturate(5) hue-rotate(180deg);
+}
+
+.tecnic-refer {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 5px;
+  align-items: center;
+  margin-top: 32px;
+}
+.tecnic-refer img {
   filter : invert(0.5) sepia(1) saturate(5) hue-rotate(180deg);
 }
 
