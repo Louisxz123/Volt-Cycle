@@ -3,6 +3,7 @@
 
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .card h3 { font-size: 1.2rem; margin: 4px 0 10px; }
+.card .icon-tile img {filter: brightness(1) invert(1)}
 
 .team-list { display: flex; flex-direction: column; gap: 16px; max-width: 720px; margin: 0 auto; }
 .team-row {
@@ -20,6 +21,12 @@
 }
 .team-row h3 { font-size: 1.1rem; margin-bottom: 4px; }
 .team-row p { font-size: 0.9rem; }
+.our-team img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  filter: invert(50%) sepia(92%) saturate(800%) hue-rotate(185deg) brightness(100%) contrast(100%);
+}
 
 .why-card {
   background: linear-gradient(90deg, rgba(0,194,255,0.06), rgba(0,255,136,0.06));
