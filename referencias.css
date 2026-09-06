@@ -42,6 +42,16 @@
 .norm-row .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--color-cyan); margin-top: 8px; flex-shrink: 0; }
 
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.refer {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap:16px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.refer img {
+  filter : invert(0.5) sepia(1) saturate(5) hue-rotate(180deg);
+}
 
 .scroll-top {
   position: fixed; right: 24px; bottom: 24px; z-index: 90;
