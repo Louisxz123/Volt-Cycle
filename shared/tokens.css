@@ -13,6 +13,7 @@
   --color-cyan: #00c2ff;
   --color-green: #00ff88;
   --gradient-brand: linear-gradient(135deg, var(--color-cyan) 0%, var(--color-green) 100%);
+  --gradient-refers: linear-gradient(90deg, rgba(0,194,255,0.06), rgba(0,255,136,0.06));
 
   --color-bg: #ffffff;
   --color-bg-alt: #f7fafc;
